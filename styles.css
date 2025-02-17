@@ -52,6 +52,8 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove underline for links */
+  display: inline-block; /* Make links behave like buttons */
 }
 
 .test-button:hover {
